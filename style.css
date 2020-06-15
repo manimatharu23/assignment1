@@ -1,0 +1,59 @@
+.row {
+    max-width: 1140px;
+    margin: 0 auto; 
+}
+
+h4 { 
+    font-size: 15px;
+    margin-left: 2%;
+    margin-bottom: 0%;
+  
+}
+
+.first-tab .plan-box input{
+    width: 50%;
+}
+
+. input[type=placholder] {
+  padding: 20px;
+  width: 25%;
+  font-size: 12px;
+  font-family: sans-serif;
+  border: 1px solid #aaaaaa;
+  
+}
+
+.btn input {
+    margin-left: 90px;
+    margin-bottom: 30px;
+}
+
+.row button {
+    overflow:auto;
+    float:right;
+}
+
+
+p {
+    margin-bottom: 0;
+}
+
+.row textarea {
+    width: 90%;
+    height: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css"> 
+        <link rel="stylesheet" href="Grid.css">
+    </head>
+        
+    <body>
+
+            <section class="first-tab">
+                <div class="row">
+                <h4>Please fill with your details</h4>
+                <div class="col span-1-of-3">
+                    <div class="plan-box">
+                    <p><input placeholder="First Name" oninput="this.className = ''"></p>
+                    <p><input placeholder="Last Name" oninput="this.className = ''"></p>
+                    <p><input placeholder="Your Email" oninput="this.className = ''"></p>
+                    <p><input placeholder="Your Country" oninput="this.className = ''"></p>
+                    <p><input placeholder="Age" oninput="this.className = ''"></p>
+                    </div>
+                </div>
+                </div>
+            </section>
+                <section class="btn">
+                    <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Female</label><br>
+                    <input type="checkbox" id="Terms" name="conditions" value="conditions">
+                        <label for="conditions">Please accept our <a href="#">Terms and conditions</a></label><br>
+            
+        </section> 
+            
+        
+            <section class="second-tab">
+                <div class="row">
+                    <h4>How do rate your satisfaction about the service provided?</h4>
+                <div class="col span-1-of-3"><br>
+                    <input type="radio" id="Not satisfied" name="satisfaction" value="Not satisfied">
+                        <label for="Not satisfied">Not satisfied</label><br>
+                    <input type="radio" id="Quite satisfied" name="satisfaction" value="Quite satisfied">
+                        <label for="Quite satisfied">Quite satisfied</label><br>
+                    <input type="radio" id="Satisfied" name="satisfaction" value="Satisfied">
+                        <label for="Satisfied">Satisfied</label><br>
+                    <input type="radio" id="Completely Satisfied" name="satisfaction" value="Completely Satisfied">
+                        <label for="Completely Satisfied">Completely Satisfied</label><br>
+                    <input type="radio" id="Extremely Satisfied" name="satisfaction" value="Extremely Satisfied">
+                        <label for="Extremely Satisfied">Extremely Satisfied</label><br>
+                    </div>        
+                </div>
+                
+            </section>
+        
+            
+            <section class="third-tab">
+                <div class="row">
+                    <h4>How did you hear about our company?</h4>
+                <div class="col span-1-of-3"><br>
+                    <input type="checkbox" id="App" name="App" value="App">
+                    <span class="checkmark"></span>
+                        <label for="App">Google Search Engine</label><br>
+                    <input type="checkbox" id="App" name="App" value="App">
+                    <span class="checkmark"></span>
+                        <label for="App">A Friend of mine</label><br>
+                    <input type="checkbox" id="App" name="App" value="App">
+                    <span class="checkmark"></span>
+                        <label for="App">Print Advertise</label><br>
+                    <input type="checkbox" id="App" name="App" value="App">
+                    <span class="checkmark"></span>
+                        <label for="App">Newspaper</label><br>
+                    <input type="checkbox" id="App" name="App" value="App">
+                    <span class="checkmark"></span>
+                        <label for="App">Other</label><br>
+                </div>
+                </div>
+            </section>
+        
+
+            <section class="fourth-tab">
+                <div class="row">
+                    <h4>Do you think to suggest our company to a friend or parent?</h4>
+                <div class="col span-1-of-3"><br>
+                    <input type="radio" id="Not satisfied" name="satisfaction" value="Not satisfied">
+                        <label for="Not satisfied">No</label><br>
+                    <input type="radio" id="Quite satisfied" name="satisfaction" value="Quite satisfied">
+                        <label for="Quite satisfied">Maybe</label><br>
+                    <input type="radio" id="Satisfied" name="satisfaction" value="Probably">
+                        <label for="Satisfied">Probably</label><br>
+                    <input type="radio" id="Satisfied" name="satisfaction" value="Sure">
+                        <label for="Satisfied">100% Sure</label><br>
+                    <p>If no, please describe with few words why</p>
+                    <textarea class="message" placeholder=""></textarea>
+                </div>
+                </div>
+            </section>
+        
+            
+            <section class="last-tab">
+                <div class="row">
+                <h4>Summary</h4>
+                <div class="col span-1-of-3"><br>
+                    
+                </div></div>
+            </section>
+            
+        <div class="row">
+                    <button type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
+                    <button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
+        </div>
+
+            <div style="text-align:center;margin-top:40px;">
+                <span class="step"></span>
+                <span class="step"></span>
+                <span class="step"></span>
+                <span class="step"></span>
+            </div>
+
+    
+    </body>
+
+</html>
+
+
+
